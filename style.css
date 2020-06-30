@@ -1,8 +1,16 @@
 body{
-    font-family: 'Yellowtail', cursive;
+    font-family: 'Merriweather', serif;
+    margin: 0px;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: teal;
 }
 .highlight{
     color: brown;
@@ -15,4 +23,52 @@ h1{
 }
 .half img{
     width: 100%;
+}
+.top-back{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 600px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(60deg, coral, brown );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+
+}
+.last{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+ border-left: 7px solid;
+ border-image: linear-gradient(180deg, lightsalmon, coral, brown);
+ border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, skyblue ,cyan, blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: black;
+    font-size: 12px;
 }
